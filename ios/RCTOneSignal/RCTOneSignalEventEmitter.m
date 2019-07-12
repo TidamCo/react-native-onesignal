@@ -355,4 +355,8 @@ RCT_EXPORT_METHOD(didSetNotificationOpenedHandler) {
     //unimplemented in iOS
 }
 
+RCT_EXPORT_METHOD(presentAppSettings) {
+    [OneSignal presentAppSettings];
+}
+
 @end

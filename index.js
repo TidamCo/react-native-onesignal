@@ -376,4 +376,14 @@ export default class OneSignal {
 
         RNOneSignal.removeExternalUserId();
     }
+
+    static presentAppSettings() {
+        if (!checkIfInitialized()) return;
+
+        if (Platform.OS === 'ios') {
+            RNOneSignal.presentAppSettings();
+        } else {
+            console.log("This function is not supported on Android");
+        }
+    }
 }
