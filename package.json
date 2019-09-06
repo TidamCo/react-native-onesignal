@@ -1,6 +1,6 @@
 {
   "name": "react-native-onesignal",
-  "version": "3.2.14",
+  "version": "3.3.2",
   "description": "React Native OneSignal Component",
   "main": "index",
   "scripts": {
@@ -8,11 +8,6 @@
   },
   "dependencies": {
     "invariant": "^2.2.2"
-  },
-  "rnpm": {
-     "ios": {
-        "sourceDir": "./ios"
-     }
   },
   "keywords": [
     "react-component",
